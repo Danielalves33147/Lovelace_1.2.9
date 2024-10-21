@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #F21B3F;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    color: #F21B3F;
+}
+
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #F21B3F;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.zoomed {
+    transform: scale(2); /* Ampliar a imagem quando clicada */
+    transition: transform 0.3s ease;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #F21B3F;
+    border-radius: 5px;
+}
+
+.saveButton, .editButton, .backButton {
+    background-color: #F21B3F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.saveButton:hover, .editButton:hover, .backButton:hover {
+    background-color: #d91a36;
+}
+
+p {
+    color: #333;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+strong {
+    color: #F21B3F;
+}
+
+.logoutButton {
+    background-color: white;
+    color: #F21B3F;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #e43d3f;
+    color: white;
+}
